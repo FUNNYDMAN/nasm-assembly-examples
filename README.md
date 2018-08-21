@@ -2,9 +2,11 @@
 
 ## Getting Started
 
-<file>-name of your asm file.
+
 
 ```bash
+#<file>-name of your asm file.
+
 nasm -f elf64 <file>.asm -o <file>.o
 
 gcc <file>.o -o <file>
