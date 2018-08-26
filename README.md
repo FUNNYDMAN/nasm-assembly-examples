@@ -16,3 +16,8 @@ Execute script:
 ```bash
 ./<file>
 ```
+
+
+Great Books
+1) http://www.stolyarov.info/books/asm_unix (russian)
+2) https://www.ozon.ru/context/detail/id/4579142/ (russian)
