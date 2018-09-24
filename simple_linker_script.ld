@@ -1,4 +1,6 @@
-/* see default ld script: ld --verbose */
+/* see default ld script: ld --verbose 
+   ld -T file.ld 
+*/
 
 SECTIONS {
     . = 0x1230000;
