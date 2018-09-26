@@ -18,6 +18,11 @@ Execute script:
 ```
 
 
+see list numbers of interrups 
+```bash
+cat /usr/include/asm/unistd_64.h
+```
+
 Great Books
 great reference https://www.felixcloutier.com/x86/index.html
 1) http://www.stolyarov.info/books/asm_unix (russian)
