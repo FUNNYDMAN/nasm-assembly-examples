@@ -1,14 +1,14 @@
- ; int sum(int a, int b) {
+; int sum(int a, int b) {
 ;    int c = a + b;
 ;    return c;
-;}
+; }
 ;
-;int main() {
+; int main() {
 ;    int a=20;
 ;    int b=30;
 ;    int res = sum(a, b);
 ;   return 0;
-;}
+; }
 
 section .text
 sum:
