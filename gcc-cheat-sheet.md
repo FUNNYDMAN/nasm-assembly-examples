@@ -84,6 +84,15 @@ Compile every program with this flag.
 gcc -Wall file.c
 ```
 
+### Special commands
+19) Disable stack protection. Usefull when you learn buffer overflow.
+```bash
+gcc -fno-stack-protection
+```
+20) Use fpu registers. Usefull when you learn x87 FPU Coproccesor commands
+```bash
+gcc -mno-sse
+```
 
 
 Print (on standard error output) the commands executed to run the stages of compilation.  Also print the
