@@ -103,3 +103,12 @@ Can get information about where include files was searched.
 gcc -v file.c
 ```
 
+21) Don't produce a position independent executable. There is problem when compiling some programs.
+
+```bash
+gcc -no-pie file.c
+```
+
+> Debian switched to PIC/PIE binaries in 64-bits mode & GCC in your case is trying to link your object as PIC
+
+For more details see https://stackoverflow.com/questions/48071280/nasm-symbol-printf-causes-overflow-in-r-x86-64-pc32-relocation
