@@ -1,3 +1,5 @@
 ### Assembly exercises
 
-1) Reverse string
+
+1) Write "Hello World" to console. 
+2) Reverse string.
