@@ -32,3 +32,27 @@ https://stackoverflow.com/questions/41573502/why-doesnt-gcc-use-partial-register
 
 3) 32-bit registers zero the upper part of the full 64-bit register
 https://stackoverflow.com/questions/11177137/why-do-x86-64-instructions-on-32-bit-registers-zero-the-upper-part-of-the-full-6?noredirect=1&lq=1
+
+
+### struct usage example
+
+```asm
+section .bss
+struc user ; define struct
+    name resb 20
+    age resb 4
+endstruc
+
+section .data
+mystruc:
+    istruc user ; init user object
+        at name, db "Dima"
+        at age, db 20
+    iend
+
+section .text
+global main
+main:
+     mov rax,[mystruc+age] ; get access to the struct field.
+     ret
+```
