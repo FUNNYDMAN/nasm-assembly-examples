@@ -112,3 +112,9 @@ gcc -no-pie file.c
 > Debian switched to PIC/PIE binaries in 64-bits mode & GCC in your case is trying to link your object as PIC
 
 For more details see https://stackoverflow.com/questions/48071280/nasm-symbol-printf-causes-overflow-in-r-x86-64-pc32-relocation
+
+22)  Do not search the standard system directories for header files. Only the directories explicitly specified with flags.
+
+```bash
+gcc -nostdinc
+```
