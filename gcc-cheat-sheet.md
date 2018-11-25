@@ -118,3 +118,11 @@ For more details see https://stackoverflow.com/questions/48071280/nasm-symbol-pr
 ```bash
 gcc -nostdinc
 ```
+
+23) Create simple static library
+http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+```bash
+gcc -c hello.c -o hello.o
+ar -cvq libhello.a hello.o
+gcc -o res main.c libhello.a
+```
