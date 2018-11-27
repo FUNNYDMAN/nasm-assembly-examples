@@ -30,4 +30,5 @@ great reference https://www.felixcloutier.com/x86/index.html
 3) Linux inside https://0xax.gitbooks.io/linux-insides/content/Theory/linux-theory-2.html
 4) deep c https://www.slideshare.net/olvemaudal/deep-c/22-What_will_happen_if_you
 5) Linux syscalls table http://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
-6) Good article about static and dynamic linking http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+6) Good articles about static and dynamic linking http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+http://www.tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html
