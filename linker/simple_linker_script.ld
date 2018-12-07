@@ -3,7 +3,7 @@
 */
 
 ENTRY(_start)
-
+w
 
 /* Program headers, each of which specifies a segment. */
 PHDRS {

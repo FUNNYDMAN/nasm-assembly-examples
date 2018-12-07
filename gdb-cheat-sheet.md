@@ -1,10 +1,11 @@
 ### gdb
 
-1) layout asm - see program instruction in visul pretty mode
+1) layout asm - see program instruction in visual pretty mode
 2) watch - to print var after it was changed
 3) -tui - switch to graphical mode
+4) define hook-stop - execute after every command set of commands
 
-Some Triks
+Some Tricks
 https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
 
 Get table with syscalls

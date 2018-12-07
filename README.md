@@ -9,6 +9,8 @@
 
 nasm -f elf64 <file>.asm -o <file>.o
 
+# Note! You need to specify the format for a output file. Default is bin.
+
 gcc <file>.o -o <file>
 
 ```
