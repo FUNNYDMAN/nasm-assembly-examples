@@ -1,3 +1,7 @@
+Great resources:
+1) Official documentation 
+2) pancake video https://www.youtube.com/watch?time_continue=1&v=tE5AKOQgIe4
+
 
 1) izz  - print all strings from the binary
 2) S=  - list sections (ascii-art bars) (io.va to display paddr or vaddr)
@@ -7,3 +11,7 @@
 6) oo+ open file in write mode 
 7) afl - list all functions
 8) VVV - go top visual graph mode 
+9) pd N - Print Disassembly
+10) w - write something to somewhere
+11) /m [magicfile]: Search magic number headers with libmagic
+12) wt[a] file [size] Write 'size' bytes in current block to 'file'
