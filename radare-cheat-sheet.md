@@ -6,3 +6,4 @@
 5) cp file file.bak - back up the file
 6) oo+ open file in write mode 
 7) afl - list all functions
+8) VVV - go top visual graph mode 
