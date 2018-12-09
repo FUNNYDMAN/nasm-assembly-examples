@@ -15,3 +15,12 @@ Great resources:
 10) w - write something to somewhere
 11) /m [magicfile]: Search magic number headers with libmagic
 12) wt[a] file [size] Write 'size' bytes in current block to 'file'
+
+13) 
+By default radare is searching in dbg.map which is the current memory map. Therefore, we want it to search in all memory maps so we need to configure it:
+
+e search.in = dbg.maps
+
+search command: / SomeString
+see search hist hit: fs
+repeat last search command: //
