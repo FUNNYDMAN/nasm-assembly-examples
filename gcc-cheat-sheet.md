@@ -126,3 +126,9 @@ gcc -c hello.c -o hello.o
 ar -cvq libhello.a hello.o
 gcc -o res main.c libhello.a
 ```
+
+### Compiler Level
+1) dump AST info
+```bash
+gcc -fdump-tree-all hello.c
+```
