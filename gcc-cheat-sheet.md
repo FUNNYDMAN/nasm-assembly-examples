@@ -84,6 +84,11 @@ Compile every program with this flag.
 gcc -Wall file.c
 ```
 
+Include source code in asm output:
+```bash
+gcc test.c -o test -Wa,-adhln=test.s -g -fverbose-asm -masm=intel
+```
+
 ### Special commands
 19) Disable stack protection. Usefull when you learn buffer overflow.
 ```bash
