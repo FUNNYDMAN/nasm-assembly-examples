@@ -132,6 +132,13 @@ ar -cvq libhello.a hello.o
 gcc -o res main.c libhello.a
 ```
 
+24) Print the full absolute name of the library
+```bash
+gcc -print-file-name=libc.so
+
+output: /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libc.so
+```
+
 ### Compiler Level
 https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html
 1) dump AST info
