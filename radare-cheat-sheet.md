@@ -24,3 +24,23 @@ e search.in = dbg.maps
 search command: / SomeString
 see search hist hit: fs
 repeat last search command: //
+
+
+### radiff useful
+
+1) Code diffing using graphdiff algorithm. 
+Output columns are: file-a-address, percentage of mostsimilar function in B file | file-b-address.
+```
+radiff2 -A -C file1 file2
+```
+
+2) Show two column hexdump diffing(-x opt)
+```
+radiff2 -x file1 file2
+```
+
+3) Graph diff output of given symbol, or between two functions, at given
+offsets: one for each binary.
+```
+radiff2 -g main -a x86 -b32 original patched
+```
