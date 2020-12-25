@@ -43,3 +43,6 @@ http://www.tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html
 https://amir.rachum.com/blog/2016/09/17/shared-libraries/
 https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index
 https://littleosbook.github.io/
+
+(advanced Assembler) https://www.xorpd.net/pages/xchg_rax/snip_00.html
+(Solutions) https://github.com/funnydman/xorpd-solutions
