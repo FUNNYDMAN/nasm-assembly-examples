@@ -13,13 +13,13 @@ gcc -DMACRO file.c
 gcc -Werror file.c
 ```
 4) Gcc options through a file using @option
-usefull if you use much option. Example file:
+usefull if you use many options. Example file:
 ```
 -Werroe -Wall
 ```
 
 ```bash
-gcc file.c @file_containe_options
+gcc file.c @file_contains_options
 ```
 5) Strip the content
 ```bash
