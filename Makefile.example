@@ -1,5 +1,3 @@
-# Todo: create real common makefile configururation for the projects
-
 CFLAGS=-pedantic
 
 #CCOMP = $(CC) $(CFLAGS)

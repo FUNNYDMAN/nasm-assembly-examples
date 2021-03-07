@@ -1,8 +1,8 @@
-Great resources:
-1) Official documentation 
-2) pancake video https://www.youtube.com/watch?time_continue=1&v=tE5AKOQgIe4
+# Resources:
+- Official documentation 
+- pancake video https://www.youtube.com/watch?time_continue=1&v=tE5AKOQgIe4
 
-
+## Daily Usage
 1) izz  - print all strings from the binary
 2) S=  - list sections (ascii-art bars) (io.va to display paddr or vaddr)
 3) asl <num> - translate syscall number into text form
@@ -16,7 +16,6 @@ Great resources:
 11) /m [magicfile]: Search magic number headers with libmagic
 12) wt[a] file [size] Write 'size' bytes in current block to 'file'
 
-13) 
 By default radare is searching in dbg.map which is the current memory map. Therefore, we want it to search in all memory maps so we need to configure it:
 
 e search.in = dbg.maps
@@ -26,7 +25,7 @@ see search hist hit: fs
 repeat last search command: //
 
 
-### radiff useful
+## radiff useful stuff
 
 1) Code diffing using graphdiff algorithm. 
 Output columns are: file-a-address, percentage of mostsimilar function in B file | file-b-address.

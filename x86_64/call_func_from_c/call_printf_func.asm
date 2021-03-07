@@ -1,4 +1,3 @@
-;
 ; assemble and link with:
 ; nasm -felf64 call_printf.asm -o call_printf.o && gcc -no-pie -m64 call_printf.o -o call_printf
 ; Why doesn't work without -no-pie flag

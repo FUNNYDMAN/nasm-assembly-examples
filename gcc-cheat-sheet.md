@@ -1,4 +1,4 @@
-### Most usefull commands(especially for me:)
+## Most useful commands (especially for me:)
 
 1) Create position independent code( -fPIC)
 ```bash
@@ -98,7 +98,6 @@ gcc -fno-stack-protection
 ```bash
 gcc -mno-sse
 ```
-
 
 Print (on standard error output) the commands executed to run the stages of compilation.  Also print the
 version number of the compiler driver program and of the preprocessor and the compiler proper.
